@@ -2,7 +2,10 @@ import styled from "styled-components";
 
 export const StyledHome = styled.div`
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 
+font-family: 'Mulish', sans-serif;
 color:#fff;
 
 .fixed-p{
@@ -37,6 +40,7 @@ color:#fff;
   }
   .navigation ul a {
       color: #fff;
+      font-family: 'Manrope', sans-serif;
   }
   .navigation ul a:hover{
     color:#ffc30b;
@@ -64,6 +68,7 @@ color:#fff;
     background-color: #fff;
     border: none;
     width: 150px;
+    font-family: 'Manrope', sans-serif;
   }
 
   .nav-btn.yellow button {

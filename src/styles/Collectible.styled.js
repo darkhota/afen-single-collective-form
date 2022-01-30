@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const StyledCollectible = styled.div`
+  @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700&display=swap")
   a {
     color: #000;
   }
   .container {
     display: flex;
+    font-family: "Manrope", sans-serif;
   }
   .container img {
     object-fit: cover;
@@ -19,6 +21,10 @@ export const StyledCollectible = styled.div`
   .back-btn {
     display: flex;
     align-items: center;
+  }
+
+  .create-field a {
+    color: #000;
   }
 
   .back-btn h3 {

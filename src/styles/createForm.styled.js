@@ -1,12 +1,17 @@
 import styled from "styled-components";
 
 export const StyledForm = styled.div`
-  padding: 4rem;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700&display=swap");
+  
+  
   color: #000;
+  font-family: "Manrope", sans-serif;
+  padding: 4rem;
+
   .form-header h1 {
     color: #000;
     font-size: 55px;
-    font-weight: 600px;
+    font-weight: 600;
   }
 
   .file-input-field {

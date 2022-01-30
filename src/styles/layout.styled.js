@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const StyledLayout = styled.div`
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700&display=swap')
+
+font-family: 'Manrope', sans-serif;
 .fixed-p{
     position: fixed;
 }
@@ -33,6 +36,7 @@ li {
   }
   .navigation ul a {
       color: #494343;
+      font-family: 'Manrope', sans-serif;
   }
   .navigation ul a:hover{
     color:#ffc30b;
@@ -86,6 +90,7 @@ li {
     background-color: #e8e8e8;
     color: #494343;
     padding: 4rem;
+    font-family: 'Manrope', sans-serif;
 }
 
 .footer-row {
