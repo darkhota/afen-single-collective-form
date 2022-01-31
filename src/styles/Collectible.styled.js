@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledCollectible = styled.div`
-  @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700&display=swap")
+  @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700&display=swap");
   a {
     color: #000;
   }
@@ -106,7 +106,9 @@ export const StyledCollectible = styled.div`
     margin-top: 2rem;
     width: 45%;
   }
-
+  .create-btn a {
+    color: #000;
+  }
   .create-btn button {
     background: #ffc30b;
     border: none;
