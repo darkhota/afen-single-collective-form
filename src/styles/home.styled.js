@@ -373,10 +373,10 @@ color:#fff;
 
       .nav-toggle.open > .bar::before{
           width: 32px;
-          transform: rotate(45deg) translate(26px, -26px)
+          transform: rotate(45deg) 
       }
       .nav-toggle.open > .bar::after{
-        transform: rotate(-45deg) translate(26px, 26px)
+        transform: rotate(-45deg) 
       }
   }
 `;
