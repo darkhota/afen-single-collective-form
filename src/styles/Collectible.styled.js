@@ -107,7 +107,7 @@ export const StyledCollectible = styled.div`
     width: 45%;
   }
   .create-btn a {
-    color: #000;
+    color: #000 !important;
   }
   .create-btn button {
     background: #ffc30b;
@@ -139,6 +139,9 @@ export const StyledCollectible = styled.div`
 
     .create-field {
       padding: 1.5rem;
+    }
+    .create-btn a {
+      color: #000 !important;
     }
   }
 `;
